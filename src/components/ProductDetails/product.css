@@ -18,6 +18,7 @@ img.product-image {
   display: flex;
   padding-top: 10px;
   padding-bottom: 10px;
+  color: black;
 }
 
 .product-det {
@@ -31,19 +32,43 @@ span.product-pronoun {
 }
 
 .reviews {
+  display: flex;
   padding-bottom: 10px;
+  padding-left: 5px;
+  color: #6e6862;
+  font-weight: 500;
 }
-
+span#ask-quest {
+  text-transform: uppercase;
+}
 .review {
   padding-right: 10px;
 }
 
 #product_name {
-  font-size: x-large;
+  font-size: xx-large;
 }
 
 .size {
   padding-top: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
+}
+
+.fas.fa-star {
+  color: #de8730;
+}
+
+div.review {
+  display: flex;
+  padding-left: 10px;
+}
+
+div.prices {
+  padding-bottom: 10px;
+}
+
+span#dollar {
+  font-size: xx-large;
+  font-weight: 500;
 }

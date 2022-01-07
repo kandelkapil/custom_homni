@@ -17,22 +17,33 @@ const ProductDetails = () => {
             Akbare Chili
           </span>
           <span className="product-det">
-            <i class="fas fa-volume-up fa-lg"></i>
+            <i class="fas fa-volume-up fa-2x"></i>
           </span>
         </div>
+
+        <div className="prices">
+          <span className="price" id="dollar">
+            $125.00
+          </span>
+          <span className="price" id="in-stock">
+            Stock level low
+          </span>
+        </div>
+
         <div className="reviews">
           <span className="review">
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
           </span>
           <span className="review">7 reviews</span>
-          <span className="review">
-            <i class="far fa-comment-alt"></i>
-          </span>
-          <span className="review">ask a question</span>
+          <div className="review">
+            <i class="fas fa-comment-alt"></i>
+
+            <span id="ask-quest">ask a question</span>
+          </div>
         </div>
 
         <div className="size">
