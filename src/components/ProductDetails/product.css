@@ -1,15 +1,18 @@
 img.product-image {
-  height: 350px;
+  height: 500px;
+  width: 480px;
 }
 .products {
   margin-top: 10px;
   padding-top: 20px;
+  padding-left: 120px;
+  padding-right: 100px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .product-related {
-  padding-top: 60px;
+  padding-top: 40px;
   display: flex;
   flex-direction: column;
 }
@@ -17,13 +20,14 @@ img.product-image {
 .product-details {
   display: flex;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   color: black;
 }
 
 .product-det {
   display: flex;
-  padding-right: 20px;
+  padding-right: 30px;
+  padding-bottom: 5px;
   align-items: center;
 }
 
@@ -33,30 +37,89 @@ span.product-pronoun {
 
 .reviews {
   display: flex;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   padding-left: 5px;
   color: #6e6862;
   font-weight: 500;
 }
-span#ask-quest {
+span#quest {
   text-transform: uppercase;
+  padding-left: 10px;
+  padding-right: 5px;
 }
 .review {
-  padding-right: 10px;
+  padding-right: 20px;
 }
 
 #product_name {
-  font-size: xx-large;
+  font-size: x-large;
 }
 
-.size {
+.sizes,
+.grinds,
+.quantity {
+  display: flex;
   padding-top: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
+  border-top: 1px solid grey;
+}
+
+.quantity {
+  border-bottom: 1px solid grey;
+}
+
+.size,
+.small,
+.large,
+.medium,
+.grind,
+.whole,
+.ground {
+  padding-right: 55px;
+}
+
+.size,
+.grind,
+.quant {
+  color: #6e6862;
+  font-size: large;
+}
+
+.small,
+.whole {
+  font-size: larger;
+  font-weight: 500;
+}
+
+.medium,
+.large,
+.ground {
+  color: #6e6862;
+  font-size: larger;
+  font-weight: 500;
+}
+
+button,
+.quantity-wrapper {
+  text-align: justify;
+
+  background: #f2f1f1;
+  border: 0;
+  padding: 5px 10px 5px 10px;
+}
+
+.quant {
+  padding-right: 20px;
+}
+
+.quant-btn {
+  font-size: 20px;
 }
 
 .fas.fa-star {
   color: #de8730;
+  padding-right: 5px;
 }
 
 div.review {
@@ -66,9 +129,36 @@ div.review {
 
 div.prices {
   padding-bottom: 10px;
+  padding-bottom: 25px;
+  display: flex;
 }
 
 span#dollar {
-  font-size: xx-large;
+  font-size: x-large;
   font-weight: 500;
+}
+
+span#in-stock {
+  font-size: small;
+  color: red;
+  padding-top: 6px;
+}
+
+span.price {
+  padding-right: 15px;
+}
+
+.add-to-cart {
+  margin-top: 20px;
+  display: inline;
+  height: 40px;
+}
+
+.cart {
+  border-radius: 2px;
+  padding: 5px 5px 5px 5px;
+  background: #3bb18f;
+  line-height: 20px;
+  color: white;
+  border: none;
 }

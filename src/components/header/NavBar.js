@@ -9,7 +9,7 @@ const NavBar = () => {
         <ul className="nav-bar-left">
           <li className="nav-links">
             <Link className="nav-items-left" to="/home">
-              <i className="fas fa-school lg"></i>
+              <i className="fas fa-school fa-lg"></i>
             </Link>
           </li>
           <li className="nav-links">
@@ -41,18 +41,18 @@ const NavBar = () => {
         <ul className="nav-bar-right">
           <li className="nav-links">
             <Link className="nav-items-right" to="/home">
-              <i className="fas fa-shopping-cart"></i>
+              <i className="fas fa-shopping-cart fa-lg"></i>
             </Link>
           </li>
           <li className="nav-links">
             <Link className="nav-items-right" to="/home">
-              <i className="far fa-user"></i>
+              <i className="far fa-user fa-lg"></i>
             </Link>
           </li>
 
           <li className="nav-links">
             <Link className="nav-items-right" to="/home">
-              <i className="fas fa-search"></i>
+              <i className="fas fa-search fa-lg"></i>
             </Link>
           </li>
         </ul>

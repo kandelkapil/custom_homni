@@ -1,0 +1,58 @@
+.recepie {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding-left: 60px;
+  padding-right: 40px;
+  border-top: 1px solid grey;
+  margin-left: 120px;
+  margin-right: 100px;
+  height: 100px;
+}
+
+div.second,
+div.third,
+div.fourth {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid grey;
+  margin-top: 25px;
+  padding-top: 20px;
+}
+
+div.first div.first {
+  display: flex;
+  flex-direction: column;
+}
+
+span.pair-icon {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.pair-items-list {
+  display: flex;
+  flex-direction: row;
+}
+
+span.pair-text {
+  font-weight: bold;
+}
+span.pair-items {
+  color: #3bb18f;
+  padding-right: 5px;
+}
+
+span.spice-level {
+  padding-bottom: 10px;
+}
+
+span#pair-item-one,
+#pair-item-two {
+  border-right: 1px solid #3bb18f;
+}
+
+span#pair-item-two,
+#pair-item-three {
+  margin-left: 5px;
+}
