@@ -1,8 +1,12 @@
 import React from "react";
 import Image from "../../assets/img1.png";
 import "./product.css";
+import { increment, decrement } from "../../redux/counter";
+import { useDispatch, useSelector } from "react-redux";
 
 const ProductDetails = () => {
+  const dispatch = useDispatch();
+  const { count } = useSelector((state) => state.counter);
   return (
     <div className="products">
       <img className="product-image" src={Image} alt="images" />
@@ -45,9 +49,9 @@ const ProductDetails = () => {
         </div>
 
         <div className="quantity">
-          <button>-</button>
-          <span>1</span>
-          <button>+</button>
+          <button onClick={() => dispatch(decrement())}>-</button>
+          <span>{count}</span>
+          <button onClick={() => dispatch(increment())}>+</button>
         </div>
       </div>
     </div>
