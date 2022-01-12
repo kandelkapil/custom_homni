@@ -1,0 +1,72 @@
+.wrapper {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.recepie-card {
+  display: flex;
+  justify-content: center;
+}
+
+h1.related-recepie-head {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.recepie-card-one {
+  display: flex;
+  background: url("../../assets/spaghetti.jpg");
+  height: 385px;
+  width: 330px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.recepie-card-two {
+  display: flex;
+  background: url("../../assets/biryani.jpg");
+  height: 385px;
+  width: 330px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.recepie-card-three {
+  display: flex;
+  background: url("../../assets/pokora.jpg");
+  height: 385px;
+  width: 330px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.recepie-desc {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-self: flex-end;
+  padding-bottom: 40px;
+  padding-left: 30px;
+}
+.recepie-name {
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+  padding-bottom: 10px;
+}
+
+.recepie-owner {
+  color: snow;
+  font-size: 15px;
+  font-weight: bolder;
+  padding-bottom: 10px;
+}
