@@ -1,30 +1,53 @@
 .recepie {
   display: flex;
   align-content: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-left: 60px;
-  padding-right: 40px;
-  border-top: 1px solid grey;
-  margin-left: 120px;
-  margin-right: 100px;
-  height: 100px;
+  padding-right: 61px;
+  border-top: 1.5px solid #eaeaea;
+  padding-bottom: 20px;
+  margin-left: 180px;
+  margin-right: 164px;
 }
 
-div.second,
-div.third,
-div.fourth {
+div.pair-div {
   display: flex;
-  flex-direction: column;
-  border-left: 1px solid grey;
-  margin-top: 25px;
-  padding-top: 20px;
+  align-items: center;
+  padding-top: 15px;
+  margin-right: 35px;
 }
 
-div.first div.first {
+.pair-well-with-class {
   display: flex;
   flex-direction: column;
 }
 
+div.second {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-right: 1.5px solid #eaeaea;
+  margin-top: 20px;
+  padding-right: 30px;
+  margin-bottom: 14px;
+}
+
+div.first {
+  display: flex;
+  flex-direction: column;
+  border-right: 1.5px solid #eaeaea;
+  margin-top: 20px;
+  margin-left: -68px;
+  margin-bottom: 14px;
+}
+
+div.third {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 20px;
+  padding-top: 5px;
+}
 span.pair-icon {
   display: flex;
   flex-wrap: wrap;
@@ -33,26 +56,123 @@ span.pair-icon {
 div.pair-items-list {
   display: flex;
   flex-direction: row;
+  padding-top: 5px;
+  margin-left: 19px;
 }
 
 span.pair-text {
-  font-weight: bold;
+  font-weight: 700;
+  font-size: 15px;
+  padding-left: 20px;
 }
 span.pair-items {
-  color: #3bb18f;
+  color: #53ba9d;
+  font-weight: 700;
+  font-size: 15px;
   padding-right: 5px;
 }
 
 span.spice-level {
-  padding-bottom: 10px;
+  padding-bottom: 5px;
+  font-weight: 700;
+  font-size: 15px;
 }
 
 span#pair-item-one,
 #pair-item-two {
-  border-right: 1px solid #3bb18f;
+  border-right: 1px solid #53ba9d;
 }
 
 span#pair-item-two,
 #pair-item-three {
   margin-left: 5px;
+}
+
+.taste-like-class {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+}
+
+.taste-list {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5px;
+  margin-left: 19px;
+}
+
+#taste-two,
+#taste-three {
+  margin-left: 5px;
+}
+
+#taste-one,
+#taste-two {
+  border-right: 1px solid black;
+}
+
+.tastes {
+  font-weight: 700;
+  font-size: 15px;
+  padding-right: 5px;
+}
+
+span.taste-like {
+  font-weight: 700;
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+div.spoon-div {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.fas.fa-pepper-hot {
+  color: red;
+
+  padding-right: 5px;
+  font-size: 15px;
+}
+
+.fas.fa-pepper-hot.not {
+  color: chartreuse;
+  padding-right: 5px;
+  font-size: 15px;
+}
+
+.fas.fa-utensil-spoon {
+  color: silver;
+}
+
+.view-recepie-div {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 180px;
+  background-image: url("../../assets/egg.jpg");
+  background-size: cover;
+  align-self: flex-end;
+}
+
+.view-recepie {
+  color: turquoise;
+  border: none;
+  border: 2px solid lawngreen;
+  background: transparent;
+  padding: 5px 8px 6px 7px;
+}
+
+.view-recepie:hover {
+  cursor: pointer;
+}
+
+.fourth {
+  border-left: 1.5px solid #eaeaea;
 }

@@ -4,6 +4,7 @@ import Image from "../../assets/img1.png";
 import "./product.css";
 import { increment, decrement } from "../../redux/counter";
 import { useDispatch, useSelector } from "react-redux";
+import Story from "./Story";
 
 const ProductDetails = () => {
   const dispatch = useDispatch();
@@ -19,21 +20,21 @@ const ProductDetails = () => {
               Akbare Chili
             </span>
             <span className="product-det">
-              <i class="fas fa-volume-up fa-lg"></i>
+              <i className="fas fa-volume-up fa-lg"></i>
             </span>
           </div>
 
           <div className="reviews">
             <span className="review ">
-              <i class="fas fa-star fa-lg"></i>
-              <i class="fas fa-star fa-lg"></i>
-              <i class="fas fa-star fa-lg"></i>
-              <i class="fas fa-star fa-lg"></i>
-              <i class="fas fa-star fa-lg"></i>
+              <i className="fas fa-star "></i>
+              <i className="fas fa-star "></i>
+              <i className="fas fa-star "></i>
+              <i className="fas fa-star "></i>
+              <i className="fas fa-star "></i>
             </span>
             <span className="review">7 reviews</span>
             <div className="review">
-              <i class="fas fa-comment-alt" id="quest"></i>
+              <i className="fas fa-comment-alt" id="quest"></i>
 
               <span id="quest">ask a question</span>
             </div>
@@ -84,14 +85,13 @@ const ProductDetails = () => {
           <div className="add-to-cart">
             <button className="cart">
               ADD TO CART
-              <span className="cart">
-                <i class="fas fa-shopping-cart"></i>
-              </span>
+              <i className="fas fa-shopping-cart"></i>
             </button>
           </div>
         </div>
       </div>
       <Recepie />
+      <Story />
     </>
   );
 };
