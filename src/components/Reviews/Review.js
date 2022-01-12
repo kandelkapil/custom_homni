@@ -3,6 +3,7 @@ import "./review.css";
 import StarIcon from "@mui/icons-material/Star";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import ReplyIcon from "@mui/icons-material/Reply";
+import ReviewForm from "./ReviewForm";
 
 const Review = () => {
   const [state, setstate] = useState([]);
@@ -76,6 +77,7 @@ const Review = () => {
           ))}
         </div>
       </div>
+      <ReviewForm />
     </>
   );
 };
