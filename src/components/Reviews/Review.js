@@ -19,11 +19,11 @@ const Review = () => {
               <button className="reply">Reply</button>
             </div>
             <div className="ratings">
-              <StarIcon />
-              <StarIcon />
-              <StarIcon />
-              <StarIcon />
-              <StarIcon />
+              <StarIcon sx={{ color: "#53ba9d" }} />
+              <StarIcon sx={{ color: "#53ba9d" }} />
+              <StarIcon sx={{ color: "#53ba9d" }} />
+              <StarIcon sx={{ color: "#53ba9d" }} />
+              <StarIcon sx={{ color: "#53ba9d" }} />
             </div>
             <div className="date">June 7,2017</div>
 
@@ -38,12 +38,18 @@ const Review = () => {
               </p>
             </div>
             <div className="reaction-icons">
-              <span className="love">
-                <FavoriteBorderIcon />
-              </span>
-              <span className="reply">
-                <ReplyIcon />
-              </span>
+              <div className="love-div">
+                <span className="love">
+                  <FavoriteBorderIcon />
+                </span>
+                <p className="love-detail">5</p>
+              </div>
+              <div className="reply-div">
+                <span className="reply">
+                  <ReplyIcon />
+                </span>
+                <p className="reply-detail">3</p>
+              </div>
             </div>
           </div>
         </div>
