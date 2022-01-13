@@ -1,4 +1,5 @@
 import React from "react";
+import FooterMain from "./components/Footer/FooterMain";
 import NavBar from "./components/header/NavBar";
 import Pricing from "./components/Pricing/Pricing";
 import ProductDetails from "./components/ProductDetails/ProductDetails";
@@ -14,6 +15,7 @@ const App = () => {
       <Relatedrecepie />
       <Review />
       <SuggestedProduct />
+      <FooterMain />
     </>
   );
 };
