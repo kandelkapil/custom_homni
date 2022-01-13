@@ -27,9 +27,9 @@ const Review = () => {
           </div>
           {state.map((item) => (
             <div className="review-user-details" key={item.id}>
-              <div className="image-div">
-                <img src={item.avatar_url} alt="" />
-              </div>
+              <span className="image-span">
+                <img className="user-img" src={item.avatar_url} alt="" />
+              </span>
               <div className="user-details">
                 <div className="user-name-and-reply">
                   <span className="user-name">{item.login}</span>
@@ -39,11 +39,11 @@ const Review = () => {
                 </div>
                 <div className="rating-and-contents">
                   <div className="ratings">
-                    <StarIcon sx={{ color: "#53ba9d" }} />
-                    <StarIcon sx={{ color: "#53ba9d" }} />
-                    <StarIcon sx={{ color: "#53ba9d" }} />
-                    <StarIcon sx={{ color: "#53ba9d" }} />
-                    <StarIcon sx={{ color: "#53ba9d" }} />
+                    <StarIcon sx={{ color: "#53ba9d", fontSize: "medium" }} />
+                    <StarIcon sx={{ color: "#53ba9d", fontSize: "medium" }} />
+                    <StarIcon sx={{ color: "#53ba9d", fontSize: "medium" }} />
+                    <StarIcon sx={{ color: "#53ba9d", fontSize: "medium" }} />
+                    <StarIcon sx={{ color: "#53ba9d", fontSize: "medium" }} />
                   </div>
                   <div className="date">June 7, 2017</div>
 
@@ -60,13 +60,13 @@ const Review = () => {
                   <div className="reaction-icons">
                     <div className="love-div">
                       <span className="love">
-                        <FavoriteBorderIcon />
+                        <FavoriteBorderIcon sx={{ color: "#DDDDDD" }} />
                       </span>
                       <p className="love-detail">5</p>
                     </div>
                     <div className="reply-div">
                       <span className="reply">
-                        <ReplyIcon />
+                        <ReplyIcon sx={{ color: "#DDDDDD" }} />
                       </span>
                       <p className="reply-detail">3</p>
                     </div>

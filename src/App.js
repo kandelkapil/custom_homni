@@ -4,6 +4,7 @@ import Pricing from "./components/Pricing/Pricing";
 import ProductDetails from "./components/ProductDetails/ProductDetails";
 import Relatedrecepie from "./components/Related_Recepie/Related-recepie";
 import Review from "./components/Reviews/Review";
+import SuggestedProduct from "./components/SuggestedProduct/SuggestedProduct";
 const App = () => {
   return (
     <>
@@ -12,6 +13,7 @@ const App = () => {
       <Pricing />
       <Relatedrecepie />
       <Review />
+      <SuggestedProduct />
     </>
   );
 };

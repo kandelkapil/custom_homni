@@ -1,0 +1,75 @@
+.container-suggest {
+  padding-top: 40px;
+  border-bottom: 43px solid #f5f5f5;
+}
+
+.wrapper-suggest {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+
+.sugst-head {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.sugst-pdct-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sugst-pdct-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.sugst-pdct-one,
+.sugst-pdct-two,
+.sugst-pdct-three,
+.sugst-pdct-four {
+  width: 18vw;
+  height: 56vh;
+}
+
+.sugst-pdct-one {
+  background: url("../../assets/packet1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sugst-pdct-two {
+  background: url("../../assets/packet2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sugst-pdct-three {
+  background: url("../../assets/packet3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sugst-pdct-four {
+  background: url("../../assets/packet4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sugst-pdct-name {
+  padding-top: 10px;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.sugst-pdct-contents {
+  padding-top: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #6e6862;
+}
