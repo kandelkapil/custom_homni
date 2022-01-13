@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import StarIcon from "@mui/icons-material/Star";
+import StarOutlineIcon from "@mui/icons-material/StarOutline";
 const ReviewForm = () => {
   return (
     <div className="review-form-container">
@@ -33,6 +34,7 @@ const ReviewForm = () => {
                 <StarIcon />
                 <StarIcon />
                 <StarIcon />
+                <StarOutlineIcon />
               </span>
             </div>
           </div>

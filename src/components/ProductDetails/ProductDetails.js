@@ -41,10 +41,10 @@ const ProductDetails = () => {
           </div>
 
           <div className="prices">
-            <span className="price" id="dollar">
+            <span className="stock-price" id="dollar">
               $125.00
             </span>
-            <span className="price" id="in-stock">
+            <span className="price-stock" id="in-stock">
               Stock level low
             </span>
           </div>

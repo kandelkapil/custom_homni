@@ -154,7 +154,7 @@ span#in-stock {
   align-items: center;
 }
 
-span.price {
+span.stock-price {
   padding-right: 15px;
 }
 
