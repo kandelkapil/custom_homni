@@ -1,0 +1,41 @@
+.container-copyright {
+  background: #262729;
+  height: 12vh;
+  display: flex;
+}
+.wrapper-copyright {
+  width: 59vw;
+  display: flex;
+  margin: auto;
+}
+
+.copyright-txt {
+  display: flex;
+  color: #6e6862;
+  font-size: 9px;
+}
+
+.payment-icons {
+  display: flex;
+  color: #6e6862;
+}
+
+.copyright-txt {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.payment-icons {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.paypal,
+.payon,
+.stripe,
+.discover,
+.jcb {
+  padding-left: 5px;
+}

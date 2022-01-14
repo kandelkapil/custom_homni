@@ -1,0 +1,188 @@
+.container-footer {
+  background: #262729;
+  height: 55vh;
+  display: flex;
+  border-bottom: 1px solid #2d2e30;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 59vw;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5%;
+}
+
+.footer-one {
+  display: flex;
+  justify-content: space-between;
+  width: 60vw;
+  padding-bottom: 20px;
+}
+.footer-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60vw;
+  padding-top: 20px;
+}
+
+.product-head,
+.brand-head,
+.contact-head {
+  padding-bottom: 10px;
+}
+
+.product-head,
+.brand-head,
+.contact-head,
+.subscribe,
+.lang,
+.follow-text {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.lang-curncy {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-link,
+.subscr {
+  width: 34%;
+}
+
+.brand-links,
+.lang-curncy {
+  width: 18%;
+}
+
+.contacts,
+.follow {
+  display: flex;
+  flex-direction: column;
+  width: 26%;
+  margin-left: 20px;
+}
+
+.con-one,
+.con-two,
+.con-three {
+  display: flex;
+  color: #6e6862;
+  font-size: 9px;
+  margin: 5px 0px;
+}
+
+.contact-div {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  margin-top: 7px;
+}
+
+.con-icon {
+  padding-right: 10px;
+}
+
+.con-one-addr {
+  display: flex;
+  flex-direction: column;
+}
+
+div.product {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.brand {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cat-one {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  font-size: 9px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #6e6862;
+}
+
+.social-icons {
+  color: #6e6862;
+}
+
+.icon-fb {
+  padding-left: 10px;
+}
+
+.icon-twit,
+.icon-insta,
+.icon-googl,
+.icon-linkd {
+  padding-left: 15px;
+}
+
+.subscribe,
+.lang,
+.follow-text {
+  padding-bottom: 15px;
+}
+
+.select-options {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+  width: 12vw;
+}
+
+select {
+  background: transparent;
+  border: none;
+  color: #6e6862;
+}
+
+.lang-div {
+  width: 5vw;
+}
+.currency-div {
+  width: 4vw;
+}
+
+select#languages,
+select#currency {
+  -webkit-appearance: none; /* for chrome & safari */
+  -moz-appearance: none;
+  background: url(../../assets/up.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 100%;
+  background-size: 10px;
+}
+
+.email {
+  height: 30px;
+  width: 18vw;
+  background: #2b2d30;
+  color: #6e6862;
+  border-radius: 2px;
+  border: none;
+  padding-left: 15px;
+}
+
+.email-sbmt-btn {
+  color: white;
+  height: 30px;
+  width: 30px;
+  background: #53ba9d;
+  border: none;
+  border-radius: 2px;
+}

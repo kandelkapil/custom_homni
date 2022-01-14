@@ -25,7 +25,7 @@ const ReviewForm = () => {
                   placeholder="First name"
                 />
               </div>
-              <div className="email">
+              <div className="user-email">
                 <input
                   type="email"
                   id="email"
