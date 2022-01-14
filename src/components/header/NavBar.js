@@ -1,62 +1,68 @@
 import React from "react";
 import "./nav.css";
 import { Link } from "react-router-dom";
+import DeckIcon from "@mui/icons-material/Deck";
+import ShoppingCartCheckoutIcon from "@mui/icons-material/ShoppingCartCheckout";
+import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
+import SearchIcon from "@mui/icons-material/Search";
 
 const NavBar = () => {
   return (
-    <div className="nav-bar">
-      <nav className="top-nav">
-        <ul className="nav-bar-left">
-          <li className="nav-links">
-            <Link className="nav-items-left" to="/home">
-              <i className="fas fa-school fa-lg"></i>
+    <div className="container-nav-bar">
+      <div className="wrapper-nav-bar">
+        <div className="nav-bar-left">
+          <div className="nav-links">
+            <Link className="nav-icon-home" to="/home">
+              <DeckIcon sx={{ fontSize: "45px" }} />
             </Link>
-          </li>
-          <li className="nav-links">
-            <Link className="nav-items-left" to="/home">
+          </div>
+          <div className="nav-links">
+            <Link className="nav-item-head" to="/home">
               Homni LLC
             </Link>
-          </li>
-        </ul>
+          </div>
+        </div>
 
-        <ul className="nav-bar-middle">
-          <li className="nav-links">
-            <Link className="nav-items-mid" to="/home">
+        <div className="nav-bar-middle">
+          <div className="nav-shop">
+            <Link className="nav-items-shop" to="/home">
               SHOP
             </Link>
-          </li>
-          <li className="nav-links">
-            <Link className="nav-items-mid" to="/home">
+          </div>
+          <div className="nav-learn">
+            <Link className="nav-items-learn" to="/home">
               LEARN
             </Link>
-          </li>
+          </div>
 
-          <li className="nav-links">
-            <Link className="nav-items-mid" to="/home">
+          <div className="nav-practice">
+            <Link className="nav-items-practice" to="/home">
               PRACTICE
             </Link>
-          </li>
-        </ul>
+          </div>
+        </div>
 
-        <ul className="nav-bar-right">
-          <li className="nav-links">
-            <Link className="nav-items-right" to="/home">
-              <i className="fas fa-shopping-cart fa-lg"></i>
+        <div className="nav-bar-right">
+          <div className="nav-links">
+            <Link className="nav-icon-cart" to="/home">
+              <ShoppingCartCheckoutIcon
+                sx={{ fontSize: "28px", color: "black" }}
+              />
             </Link>
-          </li>
-          <li className="nav-links">
-            <Link className="nav-items-right" to="/home">
-              <i className="far fa-user fa-lg"></i>
+          </div>
+          <div className="nav-links">
+            <Link className="nav-icon-person" to="/home">
+              <PersonOutlineIcon sx={{ fontSize: "28px", color: "black" }} />
             </Link>
-          </li>
+          </div>
 
-          <li className="nav-links">
-            <Link className="nav-items-right" to="/home">
-              <i className="fas fa-search fa-lg"></i>
+          <div className="nav-links">
+            <Link className="nav-icon-search" to="/home">
+              <SearchIcon sx={{ fontSize: "28px", color: "black" }} />
             </Link>
-          </li>
-        </ul>
-      </nav>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
