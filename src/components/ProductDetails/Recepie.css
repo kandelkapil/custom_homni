@@ -1,177 +1,132 @@
-.recepie {
+.container-recepie {
   display: flex;
-  align-content: center;
-  justify-content: space-around;
-  padding-left: 60px;
-  padding-right: 61px;
-  padding-bottom: 20px;
-  margin-left: 180px;
-  margin-right: 164px;
+  height: 20vh;
 }
 
-div.pair-div {
+.wrapper-recepie {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 71%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1%;
+  border-bottom: 1.5px solid #eaeaea;
+}
+
+.container-first {
+  width: 25%;
+  display: flex;
+}
+
+.container-second {
+  display: flex;
+  width: 20%;
+}
+
+.container-third {
+  display: flex;
+  width: 30%;
+}
+.container-four {
+  display: flex;
+  height: 100%;
+  border-left: 1.5px solid #eaeaea;
+  width: 25%;
+}
+
+.wrapper-first {
+  display: flex;
+  width: 100%;
+  height: 80%;
+  align-self: center;
+  align-items: center;
+  border-right: 1.5px solid #eaeaea;
+}
+
+.wrapper-second {
+  display: flex;
+  align-self: center;
+  height: 80%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 1.5px solid #eaeaea;
+}
+
+.wrapper-third {
   display: flex;
   align-items: center;
-  padding-top: 15px;
-  margin-right: 35px;
+  width: 85%;
+  margin-left: auto;
+  margin-right: 10%;
 }
 
-.pair-well-with-class {
-  display: flex;
-  flex-direction: column;
-}
-
-div.second {
+.wrapper-four {
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  border-right: 1.5px solid #eaeaea;
-  margin-top: 20px;
-  padding-right: 30px;
-  margin-bottom: 14px;
+  align-items: center;
+  background: url("../../assets/egg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  height: 90%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-div.first {
+.view-recepie {
   display: flex;
-  flex-direction: column;
-  border-right: 1.5px solid #eaeaea;
-  margin-top: 20px;
-  margin-left: -68px;
-  margin-bottom: 14px;
+  color: white;
+  font-size: 12px;
+  padding: 2% 4% 3% 5%;
+  border: 2px solid #3bb18f;
+  background: transparent;
+  border-radius: 10%;
+}
+.pair-icon-div,
+.spoon-div {
+  padding-right: 7%;
+}
+.pair-text,
+.spice-level,
+.taste-like {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 4%;
 }
 
-div.third {
-  display: flex;
-  flex-direction: column;
-
-  margin-top: 20px;
-  padding-top: 5px;
-}
-span.pair-icon {
-  display: flex;
-  flex-wrap: wrap;
+.pair-items-list {
+  color: #3bb18f;
+  font-size: 12px;
+  font-weight: 500;
 }
 
-div.pair-items-list {
-  display: flex;
-  flex-direction: row;
-  padding-top: 5px;
-  margin-left: 19px;
+#pair-item-one,
+#pair-item-two {
+  border-right: 1px solid #3bb18f;
+  padding-right: 4%;
 }
 
-span.pair-text {
-  font-weight: 700;
-  font-size: 15px;
-  padding-left: 20px;
+#pair-item-two,
+#pair-item-three {
+  padding-left: 4%;
 }
-span.pair-items {
-  color: #53ba9d;
-  font-weight: 700;
-  font-size: 15px;
+.fas.fa-pepper-hot {
+  color: red;
+  display: inline-flex;
   padding-right: 5px;
 }
-
-span.spice-level {
-  padding-bottom: 5px;
-  font-weight: 700;
-  font-size: 15px;
+#chilli-not-hot {
+  color: silver;
 }
-
-span#pair-item-one,
-#pair-item-two {
-  border-right: 1px solid #53ba9d;
-}
-
-span#pair-item-two,
-#pair-item-three {
-  margin-left: 5px;
-}
-
-.taste-like-class {
-  display: flex;
-  flex-direction: column;
-  padding-left: 5px;
-}
-
-.taste-list {
-  display: flex;
-  flex-direction: row;
-  padding-top: 5px;
-  margin-left: 19px;
+#taste-one,
+#taste-two {
+  border-right: 1px solid black;
+  padding-right: 4%;
 }
 
 #taste-two,
 #taste-three {
-  margin-left: 5px;
-}
-
-#taste-one,
-#taste-two {
-  border-right: 1px solid black;
-}
-
-.tastes {
-  font-weight: 700;
-  font-size: 15px;
-  padding-right: 5px;
-}
-
-span.taste-like {
-  font-weight: 700;
-  font-size: 15px;
-  padding-left: 20px;
-}
-
-div.spoon-div {
-  display: flex;
-  align-items: center;
-  padding-top: 15px;
-}
-
-.fas.fa-pepper-hot {
-  color: red;
-
-  padding-right: 5px;
-  font-size: 15px;
-}
-
-.fas.fa-pepper-hot.not {
-  color: chartreuse;
-  padding-right: 5px;
-  font-size: 15px;
-}
-
-.fas.fa-utensil-spoon {
-  color: silver;
-}
-
-.view-recepie-div {
-  display: flex;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 23px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100px;
-  width: 180px;
-  background-image: url("../../assets/egg.jpg");
-  background-size: cover;
-  align-self: flex-end;
-}
-
-.view-recepie {
-  color: turquoise;
-  border: none;
-  border: 2px solid lawngreen;
-  background: transparent;
-  padding: 5px 8px 6px 7px;
-}
-
-.view-recepie:hover {
-  cursor: pointer;
-}
-
-.fourth {
-  border-left: 1.5px solid #eaeaea;
+  padding-left: 4%;
 }

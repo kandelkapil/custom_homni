@@ -8,7 +8,7 @@ import FlightIcon from "@mui/icons-material/Flight";
 const Pricing = () => {
   return (
     <>
-      <div className="pricing-contents">
+      <div className="pricing-container">
         <div className="pricing-wrapper">
           <div className="pricing-texts">
             <span className="price-head">Transparent Pricing</span>

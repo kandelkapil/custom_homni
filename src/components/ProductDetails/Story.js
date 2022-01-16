@@ -62,7 +62,7 @@ const Story = () => {
         <div className="story-icons-container">
           <div className="story-icons-wrapper">
             <div className="icon-wrapper-first">
-              <WarehouseOutlinedIcon fontSize="large" />
+              <WarehouseOutlinedIcon fontSize="medium" />
               <div className="story-desc">
                 <span className="title">Producer</span>
                 <span className="desc">Alternative Herbs Nepal</span>
@@ -70,7 +70,7 @@ const Story = () => {
             </div>
 
             <div className="icon-wrapper-second">
-              <MilitaryTechIcon fontSize="large" />
+              <MilitaryTechIcon fontSize="medium" />
               <div className="story-desc">
                 <span className="title">Certification</span>
                 <span className="desc">1000 kg</span>
@@ -78,7 +78,7 @@ const Story = () => {
             </div>
 
             <div className="icon-wrapper-third">
-              <SettingsIcon fontSize="large" />
+              <SettingsIcon fontSize="medium" />
               <div className="story-desc">
                 <span className="title">Relevant Processes</span>
                 <span className="desc">Organic | Wild Harvested</span>
@@ -86,7 +86,7 @@ const Story = () => {
             </div>
 
             <div className="icon-wrapper-fourth">
-              <RiceBowlIcon fontSize="large" />
+              <RiceBowlIcon fontSize="medium" />
               <div className="story-desc">
                 <span className="title">Traditional Use</span>
                 <span className="desc">2600m</span>
@@ -94,7 +94,7 @@ const Story = () => {
             </div>
 
             <div className="icon-wrapper-fifth">
-              <AllInclusiveIcon fontSize="large" />
+              <AllInclusiveIcon fontSize="medium" />
               <div className="story-desc">
                 <span className="title">Variety</span>
                 <span className="desc">Bird Friendly</span>
@@ -102,7 +102,7 @@ const Story = () => {
             </div>
           </div>
           <div className="icon-right">
-            <SpaIcon fontSize="large" sx={{ color: "wheat" }} />
+            <SpaIcon fontSize="medium" sx={{ color: "wheat" }} />
           </div>
         </div>
       </div>

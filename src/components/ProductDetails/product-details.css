@@ -1,6 +1,6 @@
 .wrapper-product {
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 15%;
   margin-top: 3%;
   width: 70vw;
   display: flex;
@@ -9,11 +9,14 @@
 }
 
 .product-image {
-  width: 83%;
+  width: 50%;
+  height: 100%;
 }
 
 .product-related {
+  width: auto;
   padding-top: 20px;
+  margin-left: -30%;
   display: flex;
   flex-direction: column;
 }
@@ -21,8 +24,19 @@
 .product-details {
   display: flex;
   padding-top: 10px;
-  padding-bottom: 15px;
-  color: black;
+}
+.reviews {
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  height: 10%;
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+  height: 15%;
+  border-bottom: 0.5px solid #6e6862;
 }
 
 .product-det {
@@ -36,12 +50,7 @@
   font-weight: 500;
   color: #6e6862;
 }
-.reviews {
-  display: flex;
-  align-items: center;
-  padding-bottom: 20px;
-  padding-left: 5px;
-}
+
 .quest {
   display: flex;
   align-self: center;
@@ -56,7 +65,7 @@
 
 #product_name {
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .sizes,
@@ -64,15 +73,15 @@
   display: flex;
   align-items: center;
   height: 12%;
-  border-top: 0.5px solid grey;
+  border-top: 0.5px solid #6e6862;
 }
 
 .quantity {
   display: flex;
   height: 16%;
   align-items: center;
-  border-top: 0.5px solid grey;
-  border-bottom: 0.5px solid grey;
+  border-top: 0.5px solid #6e6862;
+  border-bottom: 0.5px solid #6e6862;
 }
 
 .size,
@@ -129,12 +138,6 @@ button.quant-btn {
 div.review {
   display: flex;
   padding-left: 10px;
-}
-
-div.prices {
-  padding-bottom: 10px;
-  padding-bottom: 25px;
-  display: flex;
 }
 
 .stock-price {

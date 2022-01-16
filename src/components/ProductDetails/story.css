@@ -1,10 +1,10 @@
 .wrapper-story {
   display: flex;
-  width: 80vw;
+  width: 70vw;
   margin: auto;
   flex-direction: column;
   padding-top: 40px;
-  border-top: 1.5px solid #eaeaea;
+
   padding-bottom: 60px;
 }
 
@@ -35,7 +35,7 @@ div.story-btns {
 .story-head {
   font-size: 22px;
   padding-bottom: 20px;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 #story-head-trad {
@@ -90,15 +90,15 @@ button.production {
 }
 
 span.title {
-  font-size: 15px;
-  font-weight: 700;
+  font-size: 14px;
+  font-weight: 500;
   padding-top: 10px;
   padding-bottom: 5px;
 }
 
 span.desc {
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .icon-wrapper-first,
@@ -123,8 +123,8 @@ span.desc {
 
 .icon-wrapper-second,
 .icon-wrapper-third {
-  padding-left: 10px;
-  padding-right: 35px;
+  padding-left: 30px;
+  padding-right: 40px;
 }
 
 .icon-wrapper-fifth,
